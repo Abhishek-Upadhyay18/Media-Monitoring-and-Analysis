@@ -11,4 +11,6 @@ requests>=2.31.0
 streamlit>=1.32.0
 matplotlib>=3.7.1
 pyspellchecker>=0.7.2
+fpdf>=1.7.2
+newsapi-python>=0.3.0
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
