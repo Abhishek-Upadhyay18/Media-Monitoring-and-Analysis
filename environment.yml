@@ -1,0 +1,16 @@
+name: newsDb
+dependencies:
+  - python=3.8
+  - pip
+  - nltk
+  - scikit-learn
+  - textblob
+  #- vaderSentiment
+  - pandas
+  - numpy
+  - spacy
+  - bs4
+  - requests
+  #- re
+  - streamlit
+  - # Add other dependencies here

@@ -1,0 +1,14 @@
+beautifulsoup4>=4.12.0
+nltk>=3.8.1
+scikit-learn>=1.3.2
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+pandas>=2.0.0
+numpy>=1.24.3
+spacy>=3.7.2
+bs4>=0.0.1
+requests>=2.31.0
+streamlit>=1.32.0
+matplotlib>=3.7.1
+pyspellchecker>=0.7.2
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
