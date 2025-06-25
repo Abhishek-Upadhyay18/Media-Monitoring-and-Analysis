@@ -26,7 +26,7 @@ cycler==0.12.1
 cymem
 debugpy
 decorator
-en-core-web-sm
+#en-core-web-sm
 exceptiongroup==1.2.2
 executing
 filelock==3.16.1
