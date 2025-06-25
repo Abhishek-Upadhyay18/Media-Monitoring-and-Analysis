@@ -95,8 +95,6 @@ pyspellchecker==0.8.2
 python-dateutil
 python-dotenv==1.0.1
 pytz
-pywin32==306
-pywin32-ctypes==0.2.3
 pyzmq
 referencing==0.35.1
 regex
