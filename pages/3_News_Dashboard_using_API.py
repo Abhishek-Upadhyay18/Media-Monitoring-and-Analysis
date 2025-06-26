@@ -42,7 +42,7 @@ with st.expander("NewsAPI Parameters", expanded=True):
     # Language dropdown with full names
     language_options = [
         ("English", "en"),
-        ("Hindi", "hi"),
+        #("Hindi", "hi"),
         ("French", "fr"),
         ("German", "de"),
         ("Spanish", "es")
