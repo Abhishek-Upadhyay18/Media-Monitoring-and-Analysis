@@ -7,7 +7,7 @@ import sys
 
 # Set page config
 st.set_page_config(
-    page_title="News Media Dashboard",
+    page_title="Media Monitoring Dashboard",
     page_icon="📰",     
     layout="wide"
 )
@@ -53,7 +53,7 @@ st.markdown("""
 
 # Welcome title with custom styling
 st.markdown('<div class="welcome-text">Welcome</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">AI Powerd Media Monitoring Dashboard</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">Media Monitoring Dashboard</div>', unsafe_allow_html=True)
 
 # Container for buttons
 col1, col2, col3 = st.columns([1, 2, 1])
