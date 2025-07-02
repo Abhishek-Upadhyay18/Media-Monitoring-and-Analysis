@@ -7,7 +7,7 @@ import sys
 
 # Set page config
 st.set_page_config(
-    page_title="Media Monitoring Dashboard",
+    page_title="MetClario - Media Monitoring Dashboard",
     page_icon="📰",     
     layout="wide"
 )
