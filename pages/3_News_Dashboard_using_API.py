@@ -18,8 +18,8 @@ import nltk
 #nltk.download('words')
 #nltk.download('stopwords')
 
-st.set_page_config(page_title="NewsAPI Media Dashboard", page_icon="📰", layout="wide")
-st.title("Live News Fetcher (NewsAPI) - Media Dashboard")
+st.set_page_config(page_title="MetClario", page_icon="📰", layout="wide")
+st.title("MetClario - Media Monitoring Dashboard using NewsAPI")
 
 st.write("""
 Fetch the latest news articles from NewsAPI.org. Enter your search parameters below and view or download the results instantly.
@@ -29,7 +29,7 @@ with st.expander("NewsAPI Parameters", expanded=True):
     # Remove API key input from display
     # api_key = st.text_input("Enter your NewsAPI Key", value="0ebced6d0d454faeaf76b51098b0ad4b", type="password")
     api_key = "0ebced6d0d454faeaf76b51098b0ad4b"  # Use default or set elsewhere
-    query = st.text_input("Search Keyword", value="insurance")
+    query = st.text_input("Search Keyword", value="health insurance")
     # Restrict date range to last 30 days
     today = date.today()
     min_date = today - timedelta(days=30)
