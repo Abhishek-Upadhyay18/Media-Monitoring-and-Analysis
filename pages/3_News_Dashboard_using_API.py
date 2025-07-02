@@ -29,7 +29,7 @@ with st.expander("NewsAPI Parameters", expanded=True):
     # Remove API key input from display
     # api_key = st.text_input("Enter your NewsAPI Key", value="0ebced6d0d454faeaf76b51098b0ad4b", type="password")
     api_key = "0ebced6d0d454faeaf76b51098b0ad4b"  # Use default or set elsewhere
-    query = st.text_input("Search Keyword", value="health insurance")
+    query = st.text_input("Search Keyword", value="life insurance")
     # Restrict date range to last 30 days
     today = date.today()
     min_date = today - timedelta(days=30)
